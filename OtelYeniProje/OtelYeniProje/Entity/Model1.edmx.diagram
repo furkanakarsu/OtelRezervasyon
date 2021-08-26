@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4bccc11d2b374651bb2084bd2e9515fb" Name="Diagram1">
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblBirim" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblDepartman" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblDurum" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblGorev" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblKasa" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblKur" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblMisafir" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblOda" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblPersonel" Width="1.5" PointX="7.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblTelefon" Width="1.5" PointX="3" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblUlke" Width="1.5" PointX="2.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblUrun" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="OtelDBMuratHocaModel.TblUrunGrup" Width="1.5" PointX="3" PointY="25.75" IsExpanded="true" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblBirim_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblUrun_TblBirim" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblDepartman_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblGorev_TblDepartman" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblPersonel_TblDepartman" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblGorev_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblKasa_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblKur_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblMisafir_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblOda_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblPersonel_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblTelefon_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblUrun_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblUrunGrup_TblDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblPersonel_TblGorev" ManuallyRouted="false" />
+        <AssociationConnector Association="OtelDBMuratHocaModel.FK_TblUrun_TblUrunGrup" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
